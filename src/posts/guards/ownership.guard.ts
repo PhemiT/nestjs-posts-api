@@ -1,6 +1,5 @@
 import { Injectable, CanActivate, ExecutionContext, ForbiddenException } from '@nestjs/common';
 import { Reflector } from '@nestjs/core';
-import { JwtAuthGuard } from '../../auth/guards/jwt-auth.guard';
 import { PostsService } from '../posts.service';
 
 @Injectable()
